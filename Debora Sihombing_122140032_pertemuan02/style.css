@@ -1,0 +1,153 @@
+/* Priority task color styles */
+li.priority-high {
+  background: #f8d7da;
+  border-left: 5px solid red;
+}
+
+li.priority-normal {
+  background: #f1f1f1;
+}
+
+li.priority-low {
+  background: #d4edda;
+  border-left: 5px solid green;
+}
+
+/* Dark mode adjustments */
+body.dark li.priority-high {
+  background: #5c2127;
+}
+
+body.dark li.priority-normal {
+  background: #2c2c2c;
+}
+
+body.dark li.priority-low {
+  background: #1b4720;
+}
+
+/* Default Light Mode */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eaf2f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+section {
+  margin-top: 25px;
+}
+
+input[type="text"], input[type="date"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 8px 0;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li span {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.message {
+  display: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+}
+
+body.dark li {
+  background: #2c2c2c;
+}
+
+body.dark input[type="text"],
+body.dark input[type="date"] {
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  background-color: #555;
+}
+
+body.dark button:hover {
+  background-color: #777;
+}
+
+body.dark .message {
+  background: #1b5e20;
+  color: #a5d6a7;
+  border-color: #66bb6a;
+}
+
+body.dark #backup input[type="file"] {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark .message {
+  background: #1b5e20;
+  color: #a5d6a7;
+  border-color: #66bb6a;
+}
