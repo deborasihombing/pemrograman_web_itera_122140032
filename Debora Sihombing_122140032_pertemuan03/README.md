@@ -39,18 +39,18 @@ npm start
 ### Halaman Utama (Daftar Buku)
 
 Menampilkan seluruh buku yang telah ditambahkan dengan fitur pencarian dan filter status.
-![Screenshot](./halamanUtama.png)
+![Screenshot](./src/img/halamanUtama.png)
 
 ## Form Tambah/Edit Buku
 
 Formulir untuk menambahkan atau memperbarui data buku.
-![Screenshot](./halamanUtama.png)
-![Screenshot](./halamanEdit.png)
+![Screenshot](./src/img/halamanUtama.png)
+![Screenshot](./src/img/halamanEdit.png)
 
 ## Statistik Koleksi Buku
 
 Visualisasi statistik seperti jumlah buku berdasarkan status dan total penulis unik.
-![Screenshot](./img/halamanStatistik.png)
+![Screenshot](./src/img/halamanStatistik.png)
 
 ## ⚙️ Penjelasan Fitur React yang Digunakan
 
