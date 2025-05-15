@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+/Debora Sihombing_122140032_pertemuan2
+/Debora Sihombing_122140032_pertemuan3
+/Debora Sihombing_122140032_pertemuan4
+/Debora Sihombing_122140032_pertemuan5
+/Debora Sihombing_122140032_pertemuan6
+=======
+*.egg
+*.egg-info
+*.pyc
+*$py.class
+*~
+.coverage
+coverage.xml
+build/
+dist/
+.tox/
+nosetests.xml
+env*/
+tmp/
+Data*.fs*
+*.sublime-project
+*.sublime-workspace
+.*.sw?
+.sw?
+.DS_Store
+coverage
+test
+*.sqlite
+>>>>>>> b6c1d46 (first init github)
